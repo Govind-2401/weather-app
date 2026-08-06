@@ -212,19 +212,19 @@ curl -X GET "http://localhost:8080/api/weather/Delhi"
 ```
 ---
 ## 📸 Screenshots & UI Showcase
-### 1. Main Dashboard-
+### 1. Main Dashboard
    The modern dark Glassmorphism dashboard displaying real-time metrics, real-feel values, humidity, and wind speed.
 
    ![Main Dashboard](Screenshot/dashboard.png)
 ---
 
-### 2. 5-Day Forecast Grid-
+### 2. 5-Day Forecast Grid
    Displays aggregated daily forecast cards with minimum/maximum temperature trends and dynamic weather icons.
 
    ![5-Day Forecast Grid](Screenshot/forecast.png)
 ---
 
-### 3. Swagger API Documentation (OpenAPI 3.0)-
+### 3. Swagger API Documentation (OpenAPI 3.0)
    Interactive Swagger UI listing endpoints (/api/weather/{city}) and response schemas.
 
    ![Swagger API Documentation](Screenshot/swagger.png)
@@ -242,15 +242,15 @@ If you have a suggestion that would make this better, please fork the repo and c
 ```Bash
 git checkout -b feature/AmazingFeature
 ```
-a. Commit your Changes
+* Commit your Changes
 ```Bash
 git commit -m "feat: add some AmazingFeature"
 ```
-b. Push to the Branch
+* Push to the Branch
 ```Bash
 git push origin feature/AmazingFeature
 ```
-c. Open a Pull Request
+* Open a Pull Request
 
 ---
 
