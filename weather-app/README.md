@@ -23,8 +23,8 @@ An enterprise-grade, high-performance Weather Forecasting & Analytics Platform b
 - [Getting Started](#-getting-started)
 - [Prerequisites](#prerequisites)
 - [Configuration](#configuration)
-- [Build and Run](#build-and-run)
-- [API Documentation](#-api-documentation)
+- [Build and Run](#build-and-run-the-project)
+- [Key API Endpoints](#-key-api-endpoints)
 - [Screenshots & UI Showcase](#-screenshots--ui-showcase)
 - [Contributing](#-contributing)
 - [Future Enhancements](#-future-enhancements)
@@ -211,7 +211,7 @@ curl -X GET "http://localhost:8080/api/weather/Delhi"
 }
 ```
 ---
-## Screenshots & UI Showcase
+## 📸 Screenshots & UI Showcase
 ### 1. Main Dashboard-
    The modern dark Glassmorphism dashboard displaying real-time metrics, real-feel values, humidity, and wind speed.
 
@@ -242,36 +242,43 @@ If you have a suggestion that would make this better, please fork the repo and c
 ```Bash
 git checkout -b feature/AmazingFeature
 ```
-Commit your Changes
+a. Commit your Changes
 ```Bash
 git commit -m "feat: add some AmazingFeature"
 ```
-Push to the Branch
+b. Push to the Branch
 ```Bash
 git push origin feature/AmazingFeature
 ```
-Open a Pull Request
+c. Open a Pull Request
 
 ---
 
 ## 🔮 Future Enhancements
 Planned features and improvements for future releases:
 
-📍 Geolocation Auto-Detection: Automatically detect user IP/GPS to serve instant local weather updates.
+* 📍 Geolocation Auto-Detection: Automatically detect user IP/GPS to serve instant local weather updates.
 
-🗺️ Interactive Weather Maps: Integration of Mapbox/Leaflet JS for radar precipitation and temperature heatmaps.
+* 🗺️ Interactive Weather Maps: Integration of Mapbox/Leaflet JS for radar precipitation and temperature heatmaps.
 
-🚨 Severe Weather Alerts: Notification banners for storms, floods, or high UV index warnings.
+* 🚨 Severe Weather Alerts: Notification banners for storms, floods, or high UV index warnings.
 
-📦 Distributed Caching (Redis): Upgrading from Caffeine in-memory cache to Redis for cluster deployments.
+* 📦 Distributed Caching (Redis): Upgrading from Caffeine in-memory cache to Redis for cluster deployments.
 
-🐳 Dockerization & Cloud Deployment: Containerizing the application using Docker for deployment on cloud platforms (AWS / Render).
+* 🐳 Dockerization & Cloud Deployment: Containerizing the application using Docker for deployment on cloud platforms (AWS / Render).
 
 ---
 
-## License
-Distributed under the MIT License. See the LICENSE file for more information.
+## 📄 License
 
-Made with ❤️ by Govind
+Distributed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+<div align="center">
+
+Made with ❤️ by **[Govind](https://github.com/Govind-2401)**
+
+</div>
 
 ---
